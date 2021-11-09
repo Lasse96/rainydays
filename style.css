@@ -8,21 +8,22 @@
         }
     }
 @media screen and (min-width: 1250px){
-        .menu{
-            display: none;
-            }
+    .menu{
+        display: none;
         }
+    }
 @media screen and (max-width: 1250px){
-        .menu{
-                display: block;
-                float: right;
-                }
-            } 
+    .menu{
+        display: block;
+        float: right;
+        }
+    } 
 @media screen and (max-width: 590px){
-        .push h1{
-            font-size: 18px;
-                }
-            } 
+    .push h1{
+        font-size: 18px;
+        }
+    } 
+
 @media screen and (max-width: 1250px){
         .mk{
         flex-direction: column;
@@ -32,7 +33,7 @@
         button{
             padding: 0.3750em 1em !important;
             }
-        }
+    }
 header{
     background-image: url("/images/pexels-gabriela-palai-395242.jpg");
     background-position: center;
@@ -47,9 +48,8 @@ header{
     }
 .logo img{
     max-width: 100%;
-    padding: 28px 0 0 46px;
-    flex-shrink: 5;
-    object-fit: cover;
+    padding-left: 5px;
+    
     width: 274px;
     }
 .forsidebilde{
@@ -130,7 +130,7 @@ input#search:checked ~ #searchbox{
 .topicon{
     display: flex;
     justify-content: space-between;
-    padding-left: 25px;
+    padding-left: 45px;
     padding-right: 10px;
     }
 .toprightall{
@@ -158,19 +158,18 @@ nav.hamburger ul {
     display: inline-block; 
     padding: 0;
     margin: 0;
-    width: 110px;
+    width: 195px;
     }
 nav.hamburger li {     
-    margin-bottom: 3px; 
+    margin-bottom: 3px;
     }
 nav.hamburger li a { 
     text-decoration: none; 
     color: black; 
-    background: white;
     padding: 10px 7px;
-    border: 1px solid #137FAD;
     display: block; 
     text-align: center;
+    width: 190px;
     }
 nav.hamburger li:last-child {
     margin-bottom: 0;
@@ -196,6 +195,7 @@ nav.hamburger li a:hover {
 h1{
     font: normal normal bold normal 2em/1.5 Noto Sans SC, sans-serif; 
     color: white;
+    min-width: 240px;
     }
 button{
     text-decoration: none;
