@@ -1,5 +1,5 @@
 # Rainydays
-Rainydays hjemmeside
+Rainydays side
 
 Owner: Lasse Strand
 
