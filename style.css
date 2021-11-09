@@ -194,7 +194,7 @@ nav.hamburger li a:hover {
     }
 h1{
     font: normal normal bold normal 2em/1.5 Noto Sans SC, sans-serif; 
-    color: white;
+    color: black;
     min-width: 240px;
     }
 button{
@@ -314,3 +314,15 @@ a{
 .footerinfo h2:hover{
     color: black;
     }
+
+.pushom h2{
+    font: normal normal normal normal 1.75rem/1.5 Noto Sans SC, sans-serif;
+}
+.om p{
+    font: normal normal normal normal 1.2rem/1.5 Noto Sans JP, sans-serif;
+    padding: 20px 0 20px 20px;
+    max-width: 352px;
+}
+.om h1{
+    padding: 20px 0 40px 20px;
+}
