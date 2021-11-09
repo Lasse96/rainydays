@@ -324,5 +324,8 @@ a{
     max-width: 352px;
 }
 .om h1{
-    padding: 20px 0 40px 20px;
+    padding: 20px 0 35px 20px;
+}
+.pushom{
+    text-align: center;
 }
