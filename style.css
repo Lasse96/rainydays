@@ -353,7 +353,7 @@ a{
     display: grid;
     grid-template-columns: auto auto;
 }
-input[type=text], textarea{
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea{
     width: 100%;
     border: 1px solid #34BFFA;
     border-radius: 2px;
@@ -401,6 +401,7 @@ input[type=submit]:hover{
     background-color: #FA9E34;
 }
 /*Endre alle buttons til custom link*/
+/* fiks center justering på login og registrer*/
 .regis:hover{
     text-decoration: underline;
 }
