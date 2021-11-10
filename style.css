@@ -1,39 +1,38 @@
 * {
     margin: 0;
     padding: 0;
-    }
+}
 @media screen and (max-width: 1250px){
     .flex-container, div .topright, .spes, .liten, footer .nyhetsbrev, div .sok{
         display: none;
-        }
     }
+}
 @media screen and (min-width: 1250px){
     .menu{
         display: none;
-        }
     }
+}
 @media screen and (max-width: 1250px){
     .menu{
         display: block;
         float: right;
-        }
-    } 
+    }
+} 
 @media screen and (max-width: 590px){
     .push h1{
         font-size: 18px;
-        }
-    } 
-
+    }
+} 
 @media screen and (max-width: 1250px){
         .mk{
         flex-direction: column;
         }
-    }
+}
 @media screen and (max-width: 480px){
         button{
             padding: 0.3750em 1em !important;
-            }
-    }
+        }
+}
 header{
     background-image: url("/images/pexels-gabriela-palai-395242.jpg");
     background-position: center;
@@ -41,26 +40,26 @@ header{
     background-size: cover;
     height: 100vh;
     width: 100%;
-    }
+}
 .forside{
     display: flex;
     justify-content: space-between;
-    }
+}
 .logo img{
     max-width: 100%;
     padding-left: 5px;
     
     width: 274px;
-    }
+}
 .forsidebilde{
     overflow: hidden;
-    }
+}
 .flex-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    }
+}
 .flex-container > li {
     padding-top: 57px;
     text-align: center;
@@ -68,14 +67,14 @@ header{
     width: 100%;
     margin-right: 10px;
     flex-shrink: 3;
-    }
+}
 .firstbilde{
     object-fit: cover;
-    }
+}
 .top{
     flex-direction: column;
     width: 250px;
-    }
+}
 .topright{ 
     display: flex;
     justify-content: space-between;
@@ -83,7 +82,7 @@ header{
     text-align: center;
     width: 100%;
     flex-shrink: 2;
-    }
+}
 li a{
     text-decoration: none;
     width: 100px;
@@ -91,18 +90,18 @@ li a{
     color: black; 
     padding: 2px 5px; 
     text-align: center
-    }
+}
 li a:hover {  
     color: white;
-    }
+}
 .nyheterhead, .mennhead, .kvinnerhead{
     font: normal normal bold normal 24px/1.5 Noto Sans SC, sans-serif;
     text-transform: uppercase;
-    }
+}
 .about, .kontakt{
     font: normal normal bold normal 14px/1.5 Noto Sans SC, sans-serif;
     text-transform: uppercase;   
-    }
+}
 #searchbox {
     display: none;
     background-color: #9CE1FF;
@@ -114,55 +113,55 @@ li a:hover {
     padding: .25em .75em;
     text-align: left;
     border-radius: 28px;
-    }
+}
 input#search{
     display: none;
-    }
+}
 input#search:checked ~ #searchbox{
     display: block;
     position: absolute;
     top: 5px;
     width: 220px;
-    }
+}
 .flex-column{
     flex: 1;
-    }
+}
 .topicon{
     display: flex;
     justify-content: space-between;
     padding-left: 45px;
     padding-right: 10px;
-    }
+}
 .toprightall{
     width: 250px;
     float: right;
-    }
+}
 .accounticon, .searchicon, .shoppingicon{
     filter: invert(34%) sepia(84%) saturate(723%) hue-rotate(159deg) brightness(99%) contrast(88%);
     width: 34px; height: 34px;
-    }
+}
 nav.hamburger {
     display: none;
-    }
+}
 input#hamburger-menu {
     display: none;
-    }
+}
 input#hamburger-menu:checked ~ nav.hamburger {
     display: block;  
-    }
+}
 label[for=hamburger-menu] { 
     font-size: 2em;
-    }
+}
 nav.hamburger ul { 
     list-style-type: none;
     display: inline-block; 
     padding: 0;
     margin: 0;
     width: 195px;
-    }
+}
 nav.hamburger li {     
     margin-bottom: 3px;
-    }
+}
 nav.hamburger li a { 
     text-decoration: none; 
     color: black; 
@@ -170,19 +169,19 @@ nav.hamburger li a {
     display: block; 
     text-align: center;
     width: 190px;
-    }
+}
 nav.hamburger li:last-child {
     margin-bottom: 0;
-    }
+}
 nav.hamburger li a:hover {
     color: white; 
     background: black;  
-    }
+}
 .menu ul{
     position: absolute;
     top: 40px;
     right: 2%;
-    }
+}
 .push{
     display: flex;
     flex-direction: column;
@@ -191,12 +190,12 @@ nav.hamburger li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: space-around;
-    }
+}
 h1{
     font: normal normal bold normal 2em/1.5 Noto Sans SC, sans-serif; 
     color: black;
     min-width: 240px;
-    }
+}
 button{
     text-decoration: none;
     background-color: #B07A3C;
@@ -208,112 +207,112 @@ button{
     display: inline-block;
     font: normal normal bold normal 2em/1.5 Noto Sans JP, sans-serif;
     border-radius: 63px;
-    }
+}
 button a{
     text-decoration: none;
     color: inherit;
-    }
+}
 button:hover{
     background-color: #FA9E34;
     color: black;
-    }
+}
 .mennside img, .kvinnerside img{
     max-width: 476px; max-height: 634px;
     width: 100vw;
-    }
+}
 .mk{
     display: flex;
     margin-top: 70px;
     justify-content: space-around;
-    }
+}
 .mennside, .kvinnerside{
     position: relative;
     text-align: center;
-    }
+}
 .mennknapp, .kvinnerknapp{
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
-    }
+}
 .grid-spes{
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 100px 0 100px 0;
     justify-content: space-around;
-    }
+}
 .grid-spes h2{
     grid-column-start: 1;
     grid-column-end: 5;
     font: normal normal normal normal 1.65vw/1.5 Noto Sans JP, sans-serif;
-    }
+}
 .grid-spes img{
     width: 305px; height: 385px;
     border: 0px;
     padding: 0px;
     column-gap: 0px;
-    }
+}
 .grid-spes p{
     text-align: left;
-    }
+}
 .info{
     font: normal normal normal normal 1.05vw/1.5 Noto Sans JP, sans-serif;
-    }
+}
 .infogrey{
     font: normal normal normal normal 0.7vw/1.5 Noto Sans JP, sans-serif;
     color: #828282;
-    }
+}
 hr{
     height: 3px;
     background-color: #9CE1FF;
     border: none;
-    }
+}
 .nyhetsbrev{
     display: flex;
     flex-direction: column;
     padding: 35px 0 0 84px;
-    }
+}
 .nyhetsbrev h2{
     font: normal normal bold normal 1vw/1.5 Noto Sans SC, sans-serif;
-    }
+}
 .nyhetsbrev p{
     font: normal normal normal normal 0.8vw/1.5 Noto Sans JP, sans-serif;
-    }
+}
 #mail{
     max-width: 370px;
     height: 25px;
-    }
+}
 .knapp{
     padding: 1px 1px;
     font: normal normal bold normal 1.5vw/1.5 Noto Sans JP, sans-serif;
     width: 8vw;
     margin: 0;
-    }
+}
 a{
     text-decoration: none;
     list-style-type: none;
     color: inherit;
-    }
+}
 .footerinfo{
     display: flex;
     flex-direction: row;
     justify-content: left;
     color: #137FAD;
     padding: 20px 0 0 62px;
-    }
+}
 .border{
     margin-left: 20px;
     padding-left: 20px;
     border-left: 1px solid black;
-    }
+}
 .ikonbot{
     display: block;
     float: right;
     font-size: 1.3rem;
-    }
+}
 .footerinfo h2:hover{
     color: black;
-    }
+}
 
 .pushom h2{
     font: normal normal normal normal 1.75rem/1.5 Noto Sans SC, sans-serif;
@@ -338,10 +337,19 @@ a{
     margin-bottom: 10%;
 }
 #aboutimg{
-    width: 100%;
-    height: 700px;
+    width: 600px;
+    max-height: 400px;
+    object-fit: cover;
+    padding: 70px 0 30px 0;
+    text-align: center;
+    
+}
+@media screen and (max-width: 880px){
+    #aboutimg{
+        display: none;
+    }
 }
 .om{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
 }
