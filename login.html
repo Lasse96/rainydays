@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rainydays Profil">
+    <meta name="author" content="Lasse Strand">
+    <title>Rainydays</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <header style="background-image: none; height: auto;">
+      <div class="forside"> 
+        <div class="logo flex-column"><a href="index.html"><img src="./images/RainyDays_Logo-2.png" alt="Logo"></a> </div>
+        <nav class="flex-column liten">
+            <ul class="flex-container">
+              <li class="nyheterhead"><a href="nyheter.html">Nyheter</a></li>
+              <li class="mennhead"><a href="menn.html">Menn</a></li>
+              <li class="kvinnerhead"><a href="kvinner.html">Kvinner</a></li>
+            </ul>
+        </nav>
+        <div class="top flex-column ">
+          <div class="toprightall">
+            <nav >
+              <ul class="topright">
+                <li class="about"><a href="about.html">Om Oss</a></li>
+                <li class="kontakt"><a href="kontakt.html">Kontakt Oss</a></li>
+              </ul>
+            </nav>
+            <div class="topicon">
+              <div class="sok"><label for="search">
+                <img src="./images/icons/searchicon.svg" alt="searchicon" class="searchicon"></label>
+                <input type="checkbox" id="search">
+                <input type="search" id="searchbox" placeholder="Search...">
+              </div>
+                <a href="profil.html"><img src="./images/icons/accounticon.svg" alt="accounticon" class="accounticon"></a>
+                <a href="cart.html"><img src="./images/icons/shoppingicon.svg" alt="shoppingicon" class="shoppingicon"></a>
+            <div class="menu">
+              <label for="hamburger-menu">
+                <i class="fas fa-bars"></i>
+              </label>
+              <input type="checkbox" id="hamburger-menu">
+              <nav class="hamburger">
+                <ul>
+                  <li><a href="index.html">HJEM</a></li>
+                  <li><a href="nyheter.html">NYHETER</a></li>
+                  <li><a href="menn.html">MENN</a></li>
+                  <li><a href="kvinner.html">KVINNER</a></li>
+                  <li><a href="about.html">OM OSS</a></li>
+                  <li><a href="kontakt.html">KONTAKT OSS</a></li>
+                </ul>
+              </nav>
+            </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </header>
+    <hr>
+    <main>
+        <div class="login">
+            <form action="profil.html">
+                <label for="epst" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;"></label>
+                <input type="text" id="epst" name="epst" placeholder="Din epost adresse..">
+                <label for="passord" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;"></label>
+                <input type="text" id="passord" name="passord" placeholder="Passord">
+                <a href="profil.html" class="loginknapp">Logg inn</a>
+            </form>
+        </div>
+    </main>
+    <hr>
+    <footer>
+      <div class="nyhetsbrev">
+        <h2>NYHETSBREV</h2>
+        <p>Meld deg inn for å få tilsendt nyhetsbrevene våre på epost</p>
+        <input type="email" name="mail" id="mail" placeholder="Epost adresse" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif; border: 1px solid #34BFFA;">
+        <button class="knapp" id="meldinn">Meld inn</button>
+      </div>
+      <div class="footerinfo">
+        <h2><a href="about.html" style="font-family: Noto Sans JP, sans-serif; font-size: 1.3rem;">Om Oss</a></h2>
+        <h2 class="border"><a href="kontakt.html" style="font-family: Noto Sans JP, sans-serif; font-size: 1.3rem;">Kontakt Oss</a></h2>
+      </div> 
+      <div class="ikonbot"><i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </footer>
+</body>
+</html>

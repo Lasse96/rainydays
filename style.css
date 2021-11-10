@@ -382,3 +382,23 @@ input[type=submit]:hover{
     padding: 20px;
     max-width: 500px;
 }
+.login{
+    padding: 20px;
+    border: 1px solid #34BFFA;
+}
+.loginknapp{
+    cursor: pointer;
+    background-color: #B07A3C;
+    border: none;
+    margin: auto;
+    color: white;
+    padding: 0.3750em 1em;
+    text-align: center;
+    display: inline-block;
+    font: normal normal normal normal 2em/1.5 Noto Sans JP, sans-serif;
+    border-radius: 63px;
+}
+.loginknapp:hover{
+    background-color: #FA9E34;
+}
+/*Endre alle buttons til custom link*/
