@@ -63,15 +63,26 @@
     <hr>
     <main>
         <h1 style="padding: 20px 0 35px 20px;">Kontakt oss</h1>
-        
-        <button>Send inn</button> <!-- Her skal det egentlig komme en popup som sier at du har sendt inn skjemaet -->
+        <div class="formkontakt">
+            <form action="Innsendings side">
+                <label for="fornavn" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Fornavn</label>
+                <input type="text" id="fornavn" name="fornavn" placeholder="Ditt navn..">
+                <label for="etternavn" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Etternavn</label>
+                <input type="text" id="etternavn" name="etternavn" placeholder="Ditt etternavn..">
+                <label for="epst" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Epost adresse</label>
+                <input type="text" id="epst" name="epst" placeholder="Din epost adresse..">
+                <label for="melding" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Din melding</label>
+                <textarea name="melding" id="melding" placeholder="Skriv her.." style="height: 250px;"></textarea>
+                <input type="submit" value="Submit"> <!-- Her skal det egentlig komme en popup som sier at du har sendt inn skjemaet -->
+            </form>
+        </div>
     </main>
     <hr>
     <footer>
       <div class="nyhetsbrev">
         <h2>NYHETSBREV</h2>
         <p>Meld deg inn for å få tilsendt nyhetsbrevene våre på epost</p>
-        <input type="email" name="mail" id="mail" placeholder="Epost adresse">
+        <input type="email" name="mail" id="mail" placeholder="Epost adresse" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif; border: 1px solid #34BFFA;">
         <button class="knapp" id="meldinn">Meld inn</button>
       </div>
       <div class="footerinfo">

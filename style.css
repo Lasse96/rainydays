@@ -207,6 +207,7 @@ button{
     display: inline-block;
     font: normal normal bold normal 2em/1.5 Noto Sans JP, sans-serif;
     border-radius: 63px;
+    cursor: pointer;
 }
 button a{
     text-decoration: none;
@@ -214,7 +215,6 @@ button a{
 }
 button:hover{
     background-color: #FA9E34;
-    color: black;
 }
 .mennside img, .kvinnerside img{
     max-width: 476px; max-height: 634px;
@@ -273,14 +273,14 @@ hr{
     padding: 35px 0 0 84px;
 }
 .nyhetsbrev h2{
-    font: normal normal bold normal 1vw/1.5 Noto Sans SC, sans-serif;
+    font: normal normal bold normal 1.5rem/1.5 Noto Sans SC, sans-serif;
 }
 .nyhetsbrev p{
-    font: normal normal normal normal 0.8vw/1.5 Noto Sans JP, sans-serif;
+    font: normal normal normal normal 1.2rem/1.5 Noto Sans JP, sans-serif;
 }
 #mail{
     max-width: 370px;
-    height: 25px;
+    height: 45px;
 }
 .knapp{
     padding: 1px 1px;
@@ -352,4 +352,33 @@ a{
 .om{
     display: grid;
     grid-template-columns: auto auto;
+}
+input[type=text], textarea{
+    width: 100%;
+    border: 1px solid #34BFFA;
+    border-radius: 2px;
+    padding: 20px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 5px 0 20px 0;
+    font: normal normal bold normal 1em/1.5 Noto Sans JP, sans-serif;
+}
+input[type=submit]{
+    cursor: pointer;
+    background-color: #B07A3C;
+    border: none;
+    margin: auto;
+    color: white;
+    padding: 0.3750em 1em;
+    text-align: center;
+    display: inline-block;
+    font: normal normal normal normal 2em/1.5 Noto Sans JP, sans-serif;
+    border-radius: 63px;
+}
+input[type=submit]:hover{
+    background-color: #FA9E34;
+}
+.formkontakt{
+    padding: 20px;
+    max-width: 500px;
 }
