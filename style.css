@@ -256,10 +256,10 @@ button:hover{
     text-align: left;
 }
 .info{
-    font: normal normal normal normal 1.05vw/1.5 Noto Sans JP, sans-serif;
+    font: normal normal normal normal 1.15vw/1.5 Noto Sans JP, sans-serif;
 }
 .infogrey{
-    font: normal normal normal normal 0.7vw/1.5 Noto Sans JP, sans-serif;
+    font: normal normal normal normal 1vw/1.5 Noto Sans JP, sans-serif;
     color: #828282;
 }
 hr{
@@ -313,7 +313,6 @@ a{
 .footerinfo h2:hover{
     color: black;
 }
-
 .pushom h2{
     font: normal normal normal normal 1.75rem/1.5 Noto Sans SC, sans-serif;
 }
@@ -407,4 +406,11 @@ input[type=submit]:hover{
 }
 .logknapp{
     text-align: center;
+}
+.infonyhet{
+    font: normal normal normal normal 1.8rem/1.5 Noto Sans JP, sans-serif;
+}
+.infogreynyhet{
+    font: normal normal normal normal 1.2rem/1.5 Noto Sans JP, sans-serif;
+    color: #828282;
 }
