@@ -48,7 +48,6 @@ header{
 .logo img{
     max-width: 100%;
     padding-left: 5px;
-    
     width: 274px;
 }
 .forsidebilde{
@@ -92,7 +91,7 @@ li a{
     text-align: center
 }
 li a:hover {  
-    color: white;
+    color: #137FAD;
 }
 .nyheterhead, .mennhead, .kvinnerhead{
     font: normal normal bold normal 24px/1.5 Noto Sans SC, sans-serif;
@@ -401,7 +400,7 @@ input[type=submit]:hover{
 }
 /*Endre alle buttons til custom link*/
 /* fiks center justering på login og registrer*/
-/*Mer detaljert meta description*/
+/*Mer detaljert meta description og searchbar + meny*/
 .regis:hover{
     text-decoration: underline;
 }
@@ -452,4 +451,8 @@ input[type=submit]:hover{
         min-height: 200px;
         border-radius: 5px;
     }
+}
+.loginbox{
+    display: flex;
+    justify-content: space-around;
 }
