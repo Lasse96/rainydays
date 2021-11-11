@@ -448,7 +448,7 @@ input[type=submit]:hover{
     .pb{
         max-width: 150px;
         min-width: 100px;
-        max-height: 250px;
-        min-height: 250px;
+        max-height: 200px;
+        min-height: 200px;
     }
 }
