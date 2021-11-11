@@ -434,7 +434,5 @@ input[type=submit]:hover{
         min-width: 150px;
         max-height: 250px;
         min-height: 250px;
-        border-left: 1px solid white;
-        text-align: center;
     }
 }
