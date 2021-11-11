@@ -399,7 +399,6 @@ input[type=submit]:hover{
     background-color: #FA9E34;
 }
 /*Endre alle buttons til custom link*/
-/* fiks center justering på login og registrer*/
 /*Mer detaljert meta description og searchbar + meny*/
 .regis:hover{
     text-decoration: underline;
@@ -455,4 +454,11 @@ input[type=submit]:hover{
 .loginbox{
     display: flex;
     justify-content: space-around;
+}
+input[type=radio]{
+    appearance: none;
+    -webkit-appearance: none;
+}
+input[type=radio]:checked{
+    
 }
