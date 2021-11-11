@@ -401,16 +401,39 @@ input[type=submit]:hover{
 }
 /*Endre alle buttons til custom link*/
 /* fiks center justering på login og registrer*/
+/*Mer detaljert meta description*/
 .regis:hover{
     text-decoration: underline;
 }
 .logknapp{
     text-align: center;
 }
-.infonyhet{
+.infonyhet, .infotxt{
     font: normal normal normal normal 1.8rem/1.5 Noto Sans JP, sans-serif;
 }
-.infogreynyhet{
+.infogreynyhet, .infogreytxt{
     font: normal normal normal normal 1.2rem/1.5 Noto Sans JP, sans-serif;
     color: #828282;
+}
+.produktbilder{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.pb{
+    object-fit: cover; 
+    width: 100%;
+    max-width: 650px; 
+    max-height: 500px; 
+    min-height: 500px; 
+    padding-top: 20px;
+}
+@media screen and (max-width: 880px){
+    .pb{
+        max-width: 300px;
+        min-width: 200px;
+        max-height: 250px;
+        min-height: 250px;
+        border: 1px solid white;
+    }
 }
