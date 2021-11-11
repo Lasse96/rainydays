@@ -431,9 +431,10 @@ input[type=submit]:hover{
 @media screen and (max-width: 880px){
     .pb{
         max-width: 300px;
-        min-width: 200px;
+        min-width: 150px;
         max-height: 250px;
         min-height: 250px;
         border: 1px solid white;
+        text-align: center;
     }
 }
