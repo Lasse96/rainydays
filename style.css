@@ -499,3 +499,16 @@ input[type=radio]#l:checked{
     width: 100%;
     min-width: 200px;
 }
+.sammendragp{
+    font: normal normal normal normal 1.2rem/2 Noto Sans JP, sans-serif;
+    padding: 30px 0 0 20px;
+}
+.sammendrag{
+    display: flex;
+    flex-direction: row;
+}
+.floatright{
+    text-align: end;
+    width: 100%;
+    padding-right: 20px;
+}
