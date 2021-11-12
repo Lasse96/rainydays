@@ -520,16 +520,20 @@ input[type=radio]#l:checked{
 input[type=radio]#hjemlev{
     content: url(./images/icons/hjemlevering1.svg);
     width: 400px;
+    height: 59px;
 }
 input[type=radio]#hjemlev:checked{
     content: url(./images/icons/hjemlevering2.svg);
     width: 400px;
+    height: 59px;
 }
 input[type=radio]#hente{
     content: url(./images/icons/hente1.svg);
     width: 300px;
+    height: 59px;
 }
 input[type=radio]#hente:checked{
     content: url(./images/icons/hente2.svg);
     width: 300px;
+    height: 59px;
 }
