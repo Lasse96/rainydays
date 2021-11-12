@@ -312,7 +312,7 @@ a{
 .footerinfo h2:hover{
     color: black;
 }
-.pushom h2{
+.pushom h2, form h2{
     font: normal normal normal normal 1.75rem/1.5 Noto Sans SC, sans-serif;
 }
 .om p{
@@ -459,6 +459,33 @@ input[type=radio]{
     appearance: none;
     -webkit-appearance: none;
 }
-input[type=radio]:checked{
-    
+input[type=radio]#s{
+    content: url(./images/icons/icons8-circled-s-100-2.svg);
+    height: 40px;
+    width: 40px;
+}
+input[type=radio]#s:checked{
+    content: url(./images/icons/icons8-circled-s-100.svg);
+    height: 40px;
+    width: 40px;
+}
+input[type=radio]#m{
+    content: url(./images/icons/icons8-circled-m-100.svg);
+    height: 40px;
+    width: 40px;
+}
+input[type=radio]#m:checked{
+    content: url(./images/icons/icons8-circled-m-100-2.svg);
+    height: 40px;
+    width: 40px;
+}
+input[type=radio]#l{
+    content: url(./images/icons/icons8-circled-l-100-2.svg);
+    height: 40px;
+    width: 40px;
+}
+input[type=radio]#l:checked{
+    content: url(./images/icons/icons8-circled-l-100.svg);
+    height: 40px;
+    width: 40px;
 }
