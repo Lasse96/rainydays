@@ -524,7 +524,9 @@ input[type=radio]#hjemlev:checked{
 }
 input[type=radio]#hente{
     content: url(./images/icons/hente1.svg);
+    width: 300px;
 }
 input[type=radio]#hente:checked{
     content: url(./images/icons/hente2.svg);
+    width: 300px;
 }
