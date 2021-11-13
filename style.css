@@ -538,6 +538,8 @@ input[type=radio]#hente:checked{
 #kreditt, #klarna, #paypal{
     appearance: radio;
     -webkit-appearance: radio;
+    border-radius: 0;
+    border: none;
 }
 .betalingmid{
     border: 1px solid grey;
