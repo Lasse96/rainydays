@@ -532,6 +532,7 @@ input[type=radio]#hente:checked{
     -webkit-appearance: radio;
     -moz-appearance: radio;
     border-radius: 6;
+    border: 2px solid black;
 }
 .betalingmid{
     border: 1px solid grey;
