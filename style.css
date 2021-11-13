@@ -531,8 +531,8 @@ input[type=radio]#hente:checked{
     appearance: radio;
     -webkit-appearance: radio;
     -moz-appearance: radio;
-    height: 10px;
-    width: 10px;
+    height: 30px;
+    width: 30px;
     border-radius: 6;
     border: 1px solid grey;
 }
