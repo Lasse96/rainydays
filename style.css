@@ -455,12 +455,12 @@ input[type=submit]:hover{
     display: flex;
     justify-content: space-around;
 }
-input[type=radio]:not(old){
+input[type=radio]{
     appearance: none;
-    -webkit-appearance: none !important;
+    -webkit-appearance: none;
     -moz-appearance: none;
     border-radius: 0;
-    outline: none !important;
+    border: none;
 }
 input[type=radio]#s{
     content: url(./images/icons/icons8-circled-s-100-2.svg);
