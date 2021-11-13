@@ -501,6 +501,7 @@ input[type=radio]#l:checked{
 .sammendrag{
     display: flex;
     flex-direction: row;
+    padding-top: 43px;
 }
 .floatright{
     text-align: end;
@@ -535,9 +536,6 @@ input[type=radio]#hente:checked{
     -moz-appearance: radio;
     height: 20px;
     width: 20px;
-    border: 1px solid grey;
-}
-.betalingmid{
     border: 1px solid grey;
 }
 .kortmain{
@@ -587,11 +585,26 @@ input[type=radio]#hente:checked{
 }
 .kortnummer{
     background: url(/images/icons/credit-card-solid.svg) no-repeat;
-    background-position: 85% 50%;
-    background-size: 30px;
 }
 .cvv{
     background: url(/images/icons/lock-solid.svg) no-repeat;
+}
+.cvv, .kortnummer{
     background-position: 85% 50%;
     background-size: 30px;
+}
+@media screen and (min-width: 800px){
+    .infoflex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width: 800px){
+    .betaling{
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
 }

@@ -62,7 +62,7 @@
     </header>
     <hr>
     <main>
-        <h1 style="padding: 20px 0 35px 20px;">Handlekurv</h1>
+        <h1 style="padding: 20px 0 35px 20px;">Sammendrag</h1>
             <div class="cartprod">
                 <img src="./images/daoud-abismail-oG4OvTFbiXk-unsplash.jpg" alt="casualimg" style="object-fit: cover; width: 100%; max-width: 450px; max-height: 250px;">
                 <div class="prodtxt1">
@@ -73,7 +73,6 @@
                     </div>
                 </div>
             </div>
-            <h2 style="font: normal normal normal normal 1.8rem/1.5 Noto Sans JP, sans-serif; padding-left: 20px;">Sammendrag</h2>
             <div class="sammendrag">
               <div class="sammendragp">
                 <p>Subtotal</p><p>Frakt</p><p style="font-weight: bold;">Totalt</p>
@@ -87,8 +86,9 @@
               <p class="checkoutp" style="text-align: end; padding-right: 20px;">Allerede bruker?</p>
               <div class="logknapp" style="text-align: end;"><a href="profil.html" class="loginknapp">Logg inn</a></div>
             </div>
-          <div class="navnogadr">
-            <h2 style="text-align: left; font: normal normal normal normal 2em/1.5 Noto Sans SC, sans-serif; color: black; min-width: 240px; padding-left: 20px;">Navn og adresse</h2>
+          <div class="infoflex">
+            <div class="navnogadr">
+              <h2 style="text-align: left; font: normal normal normal normal 2em/1.5 Noto Sans SC, sans-serif; color: black; min-width: 240px; padding-left: 20px;">Navn og adresse</h2>
               <div class="checkoutmid">
                   <label for="fornavn" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Fornavn</label>
                   <input type="text" id="fornavn" name="fornavn" placeholder="Ditt navn..">
@@ -101,25 +101,28 @@
                   <label for="sted" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Sted</label>
                   <input type="text" id="sted" name="sted" placeholder="by..">
               </div>
+            </div>
+            <div class="konlev">
+              <div class="kontaktinfo">
+                <h2 style="text-align: left; font: normal normal normal normal 2em/1.5 Noto Sans SC, sans-serif; color: black; min-width: 240px; padding-left: 20px;">Kontaktinfo</h2>
+                  <div class="checkoutmid">
+                      <label for="epst" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Epost adresse</label>
+                      <input type="email" id="epst" name="epst" placeholder="Din epost adresse..">
+                      <label for="mob" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Mobil</label>
+                      <input type="tel" id="mob" name="mob" placeholder="Mobilnummer..">
+                  </div>
+              </div>
+              <div class="levering">
+                <h2 style="text-align: left; font: normal normal normal normal 2em/1.5 Noto Sans SC, sans-serif; color: black; min-width: 240px; padding-left: 20px;">Levering</h2>
+                  <p class="leveringp" style="padding-top: 0px;">Hvordan vil du ha pakken levert?</p>  
+                    <div class="checkoutmid" style="padding-bottom: 0px;">
+                      <input type="radio" id="hjemlev" name="lev" value="hjemlev">
+                      <input type="radio" id="hente" name="lev" value="hente"> 
+                    </div>
+                <p class="leveringp" style="padding: 0 0 0 20px;">Beregnet leveransetid: 1-3 arbeidsdager</p>  
+              </div>
+            </div>
           </div>
-        <div class="kontaktinfo">
-          <h2 style="text-align: left; font: normal normal normal normal 2em/1.5 Noto Sans SC, sans-serif; color: black; min-width: 240px; padding-left: 20px;">Kontaktinfo</h2>
-            <div class="checkoutmid">
-                <label for="epst" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Epost adresse</label>
-                <input type="email" id="epst" name="epst" placeholder="Din epost adresse..">
-                <label for="mob" style="font: normal normal normal normal 1.3em/1.5 Noto Sans JP, sans-serif;">Mobil</label>
-                <input type="tel" id="mob" name="mob" placeholder="Mobilnummer..">
-            </div>
-        </div>
-      <div class="levering">
-        <h2 style="text-align: left; font: normal normal normal normal 2em/1.5 Noto Sans SC, sans-serif; color: black; min-width: 240px; padding-left: 20px;">Levering</h2>
-          <p class="leveringp" style="padding-top: 0px;">Hvordan vil du ha pakken levert?</p>  
-            <div class="checkoutmid" style="padding-bottom: 0px;">
-              <input type="radio" id="hjemlev" name="lev" value="hjemlev">
-              <input type="radio" id="hente" name="lev" value="hente"> 
-            </div>
-        <p class="leveringp" style="padding: 0 0 0 20px;">Beregnet leveransetid: 1-3 arbeidsdager</p>  
-      </div>
       <div class="betaling">
         <h2 style="text-align: left; font: normal normal normal normal 2em/1.5 Noto Sans SC, sans-serif; color: black; min-width: 240px; padding-left: 20px;">Betaling</h2>
           <div class="checkoutmid betalingmid" style="padding-bottom: 0px;">
