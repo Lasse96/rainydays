@@ -587,3 +587,13 @@ input[type=radio]#hente:checked{
     width: 145px;
     float: left;
 }
+.kortnummer{
+    background: url(/images/icons/credit-card-solid.svg) no-repeat;
+    background-position: 85% 50%;
+    background-size: 30px;
+}
+.cvv{
+    background: url(/images/icons/lock-solid.svg) no-repeat;
+    background-position: 85% 50%;
+    background-size: 30px;
+}
