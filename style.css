@@ -535,3 +535,58 @@ input[type=radio]#hente{
 input[type=radio]#hente:checked{
     content: url(./images/icons/hente2.svg);
 }
+#kreditt, #klarna, #paypal{
+    appearance: radio;
+    -webkit-appearance: radio;
+}
+.betalingmid{
+    border: 1px solid black;
+}
+.kortmain{
+    height: 400px;
+    width: 360px;
+    margin: 60px auto 0;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.kortsecond{
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+.kortnummer, 
+.måned select, 
+.år select, 
+.cvv input{
+    font: normal normal normal normal 1.2rem/2 Noto Sans JP, sans-serif;
+    line-height: 14px;
+    opacity: .7;
+    color: grey;
+}
+.kortnummer{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+}
+.måned select, .år select{
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+
+}
+.måned select{
+    float: left;
+}
+.år select{
+    float: right;
+}
+.cvv{
+    width: 145px;
+    padding-left: 20px;
+    float: left;
+    border-radius: 4px;
+    border: 2px solid lightgrey;
+}

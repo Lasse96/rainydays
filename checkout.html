@@ -113,12 +113,64 @@
         </div>
       <div class="levering">
         <h2 style="text-align: left; font: normal normal normal normal 2em/1.5 Noto Sans SC, sans-serif; color: black; min-width: 240px; padding-left: 20px;">Levering</h2>
-        <p class="leveringp" style="padding-top: 0px;">Hvordan vil du ha pakken levert?</p>  
-          <div class="checkoutmid" style="padding-bottom: 0px;">
-                  <input type="radio" id="hjemlev" name="lev" value="hjemlev">
-                  <input type="radio" id="hente" name="lev" value="hente"> 
-        </div>
+          <p class="leveringp" style="padding-top: 0px;">Hvordan vil du ha pakken levert?</p>  
+            <div class="checkoutmid" style="padding-bottom: 0px;">
+              <input type="radio" id="hjemlev" name="lev" value="hjemlev">
+              <input type="radio" id="hente" name="lev" value="hente"> 
+            </div>
         <p class="leveringp" style="padding: 0 0 0 20px;">Beregnet leveransetid: 1-3 arbeidsdager</p>  
+      </div>
+      <div class="betaling">
+        <h2 style="text-align: left; font: normal normal normal normal 2em/1.5 Noto Sans SC, sans-serif; color: black; min-width: 240px; padding-left: 20px;">Betaling</h2>
+          <div class="checkoutmid betalingmid" style="padding-bottom: 0px;">
+            <input type="radio" id="kreditt" name="betal" value="kreditt">
+            <label for="kreditt" style="font: normal normal normal normal 1.2rem/2 Noto Sans JP, sans-serif;">Kreditt eller debetkort</label> <br>
+            <input type="radio" id="klarna" name="betal" value="klarna">
+            <label for="klarna" style="font: normal normal normal normal 1.2rem/2 Noto Sans JP, sans-serif;">Klarna</label> <br>
+            <input type="radio" id="paypal" name="betal" value="paypal">
+            <label for="paypal" style="font: normal normal normal normal 1.2rem/2 Noto Sans JP, sans-serif;">Paypal</label> <br>
+            <form action="checksuc.html" class="kortmain">
+              <div class="kortsecond">
+                <input type="text" class="kortnummer" placeholder="Kortnummer">
+                <div class="dato">
+                  <div class="måned">
+                    <select name="Måned">
+                      <option value="januar">Januar</option>
+                      <option value="februar">Februar</option>
+                      <option value="mars">Mars</option>
+                      <option value="april">April</option>
+                      <option value="mai">Mai</option>
+                      <option value="juni">Juni</option>
+                      <option value="juli">Juli</option>
+                      <option value="august">August</option>
+                      <option value="september">September</option>
+                      <option value="oktober">Oktober</option>
+                      <option value="november">Novemeber</option>
+                      <option value="desember">Desember</option>
+                    </select>
+                  </div>
+                  <div class="år">
+                    <select name="år">
+                      <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                      <option value="2023">2023</option>
+                      <option value="2024">2024</option>
+                      <option value="2025">2025</option>
+                      <option value="2026">2026</option>
+                      <option value="2027">2027</option>
+                      <option value="2028">2028</option>
+                      <option value="2029">2029</option>
+                      <option value="2030">2030</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="cvv">
+                  <input type="text" placeholder="CVV">
+                </div>
+                <button type="submit">Fullfør kjøp</button>
+              </div>
+            </form>
+        </div>
       </div>
     </main>
     <hr>
