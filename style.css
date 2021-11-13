@@ -530,6 +530,7 @@ input[type=radio]#hente:checked{
 #kreditt, #klarna, #paypal{
     appearance: radio;
     -webkit-appearance: radio;
+    -moz-appearance: radio;
     border-radius: 0;
     border: none;
 }
