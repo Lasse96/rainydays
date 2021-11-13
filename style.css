@@ -455,7 +455,7 @@ input[type=submit]:hover{
     display: flex;
     justify-content: space-around;
 }
-input[type=radio]{
+input[type=radio]:not(old){
     appearance: none;
     -webkit-appearance: none !important;
     -moz-appearance: none;
