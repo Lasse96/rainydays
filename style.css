@@ -398,8 +398,6 @@ input[type=submit]:hover{
 .loginknapp:hover{
     background-color: #FA9E34;
 }
-/*Endre alle buttons til custom link*/
-/*Mer detaljert meta description og searchbar + meny*/
 .regis:hover{
     text-decoration: underline;
 }
@@ -494,7 +492,7 @@ input[type=radio]#l:checked{
     width: 100%;
     min-width: 200px;
 }
-.sammendragp, .checkoutp, .leveringp{
+.sammendragp, .checkoutp, .leveringp {
     font: normal normal normal normal 1.2rem/2 Noto Sans JP, sans-serif;
     padding: 30px 0 0 20px;
 }
@@ -608,3 +606,8 @@ input[type=radio]#hente:checked{
         padding-bottom: 20px;
     }
 }
+
+
+
+/*Endre alle buttons til custom link*/
+/*Mer detaljert meta description og searchbar + meny*/
