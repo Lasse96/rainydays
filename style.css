@@ -514,13 +514,14 @@ input[type=radio]#l:checked{
 input[type=radio]#hjemlev, #hjemlev:checked, #hente, #hente:checked{
     width: 320px;
     height: 59px;
-    padding-bottom: 10px;
 }
 input[type=radio]#hjemlev{
     content: url(./images/icons/hjemlevering1.svg);
+    margin-bottom: 25px;
 }
 input[type=radio]#hjemlev:checked{
     content: url(./images/icons/hjemlevering2.svg);
+    margin-bottom: 25px;
 }
 input[type=radio]#hente{
     content: url(./images/icons/hente1.svg);
