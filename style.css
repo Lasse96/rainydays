@@ -460,6 +460,7 @@ input[type=radio]{
     -webkit-appearance: none;
     -moz-appearance: none;
     border-radius: 0;
+    list-style-type: none;
 }
 input[type=radio]#s{
     content: url(./images/icons/icons8-circled-s-100-2.svg);
