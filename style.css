@@ -462,35 +462,27 @@ input[type=radio]{
     border-radius: 0;
     border: none;
 }
-input[type=radio]#s{
-    content: url(./images/icons/icons8-circled-s-100-2.svg);
+input[type=radio]#s, input[type=radio]#m, input[type=radio]#l{
     height: 40px;
     width: 40px;
+}
+input[type=radio]#s{
+    content: url(./images/icons/icons8-circled-s-100-2.svg);
 }
 input[type=radio]#s:checked{
     content: url(./images/icons/icons8-circled-s-100.svg);
-    height: 40px;
-    width: 40px;
 }
 input[type=radio]#m{
     content: url(./images/icons/icons8-circled-m-100.svg);
-    height: 40px;
-    width: 40px;
 }
 input[type=radio]#m:checked{
     content: url(./images/icons/icons8-circled-m-100-2.svg);
-    height: 40px;
-    width: 40px;
 }
 input[type=radio]#l{
     content: url(./images/icons/icons8-circled-l-100-2.svg);
-    height: 40px;
-    width: 40px;
 }
 input[type=radio]#l:checked{
     content: url(./images/icons/icons8-circled-l-100.svg);
-    height: 40px;
-    width: 40px;
 }
 .cartprod{
     display: flex;
