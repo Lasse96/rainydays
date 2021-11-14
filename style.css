@@ -104,6 +104,7 @@ li a:hover {
 #searchbox {
     display: none;
     background-color: #9CE1FF;
+    box-sizing: border-box;
     border: 1px solid black;
     font-size: 12pt;
     font-weight: 100;
@@ -111,7 +112,7 @@ li a:hover {
     margin-right: 10px;
     padding: .25em .75em;
     text-align: left;
-    border-radius: 28px;
+    border-radius: 8px;
 }
 input#search{
     display: none;
@@ -120,7 +121,7 @@ input#search:checked ~ #searchbox{
     display: block;
     position: absolute;
     top: 5px;
-    width: 220px;
+    width: 200px;
 }
 .flex-column{
     flex: 1;
@@ -157,9 +158,7 @@ nav.hamburger ul {
     padding: 0;
     margin: 0;
     width: 195px;
-}
-nav.hamburger li {     
-    margin-bottom: 3px;
+    border: 1px solid black;
 }
 nav.hamburger li a { 
     text-decoration: none; 
@@ -168,6 +167,7 @@ nav.hamburger li a {
     display: block; 
     text-align: center;
     width: 190px;
+    background-color: white;
 }
 nav.hamburger li:last-child {
     margin-bottom: 0;
@@ -385,7 +385,7 @@ input[type=submit]:hover{
     border: 1px solid #34BFFA;
     max-width: 400px;
 }
-.loginknapp{
+.loginknapp, .knappall{
     cursor: pointer;
     background-color: #B07A3C;
     color: white;
@@ -395,7 +395,7 @@ input[type=submit]:hover{
     font: normal normal normal normal 2em/1.5 Noto Sans JP, sans-serif;
     border-radius: 63px;
 }
-.loginknapp:hover{
+.loginknapp:hover, .knappall:hover{
     background-color: #FA9E34;
 }
 .regis:hover{
@@ -606,8 +606,3 @@ input[type=radio]#hente:checked{
         padding-bottom: 20px;
     }
 }
-
-
-
-/*Endre alle buttons til custom link*/
-/*Mer detaljert meta description og searchbar + meny*/
